@@ -1,0 +1,16 @@
+---
+parser: babel-eslint
+plugins:
+- react
+- react-hooks
+extends:
+- plugin:react/recommended
+- standard
+rules:
+  react-hooks/rules-of-hooks: error
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
+  ecmaFeatures:
+    jsx: true
+    experimentalObjectRestSpread: true
